@@ -1,3 +1,10 @@
+/* 
+Label new column as follows based on job_location:
+- 'Anywhere' jobs as 'Remote'
+- 'New York, NY' jobs as  'Local'
+- Otherwise 'Onsite'
+*/
+
 SELECT
     COUNT(job_id) AS number_of_jobs,
     CASE

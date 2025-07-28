@@ -1,3 +1,9 @@
+/*
+Find the companies that have the most job openings. 
+- Get the total number of job postings per company id (job_posting_fact)
+- Return the total number of jobs with the company name (company_dim)
+*/
+
 WITH company_job_count AS (
     SELECT
             company_id,

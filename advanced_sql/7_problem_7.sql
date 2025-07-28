@@ -1,3 +1,9 @@
+/*
+Find the count of the number of remote job postings per skill
+    - Display the top 5 skills by their demand in remote jobs
+    - Include skill ID, name, and count of postings requiring the skill
+*/
+
 WITH remote_job_skills AS (
     SELECT
         skill_id,
